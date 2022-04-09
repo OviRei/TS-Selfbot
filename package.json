@@ -18,5 +18,11 @@
   "homepage": "https://github.com/OviRei/TS-Selfbot#readme",
   "devDependencies": {
     "typescript": "^4.6.3"
+  },
+  "dependencies": {
+    "@types/node": "^17.0.23",
+    "discordjswith1change": "^1.0.0",
+    "image-data-uri": "^2.0.1",
+    "request": "^2.88.2"
   }
 }
