@@ -1,6 +1,10 @@
 {
     "compilerOptions": {
         "target": "esnext",
+        "module": "commonjs",
+        "outDir": "./out",
+        "rootDir": "./src",
+        "noImplicitUseStrict": true,
         "watch": true
     }
 }
