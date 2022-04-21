@@ -4,7 +4,8 @@
   "description": "A discord selfbot made in typescript",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc && node out/helper/index.js"
   },
   "repository": {
     "type": "git",
@@ -21,6 +22,7 @@
   },
   "dependencies": {
     "@types/node": "^17.0.23",
+    "discord.js": "^11.6.4",
     "discordjswith1change": "^1.0.0",
     "image-data-uri": "^2.0.1",
     "request": "^2.88.2"
